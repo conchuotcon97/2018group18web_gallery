@@ -6,26 +6,26 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Log in</title>
 <link rel="stylesheet" href="css/createAc.css">
-<link rel="stylesheet" href="css/menu.css">
 
 </head>
 <body>
 	<jsp:include page="menu.jsp" />
 	<div id="container-box">
+		<form action="HandingLogin" method="post">
+
+			<div class="left">
+				<h1>Login</h1>
+				<input type="text" name="email" placeholder="E-mail" /> <input
+					type="password" name="password" placeholder="Password" />
 
 
-		<div class="left">
-			<h1>Login</h1>
-			<input type="text" name="email" placeholder="E-mail" /> <input
-				type="password" name="password" placeholder="Password" />
+				<p class="bottom">
+					<a href="forgot.jsp">Forgot Password ?</a>&nbsp&nbsp&nbsp&nbsp <a
+						href="signup.jsp">Create an Account</a>
+				</p>
+			</div>
+		</form>
 
-
-			<p class="bottom">
-				<a href="forgot.jsp">Forgot Password ?</a>&nbsp&nbsp&nbsp&nbsp <a
-					href="signup.jsp">Create an Account</a>
-			</p>
-
-		</div>
 		<div class="right">
 			<span class="loginwith">Login with<br />social network
 			</span>

@@ -2,7 +2,7 @@
     <wb-module deploy-name="GalleryWebGroup2018">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
-        <property name="context-root" value="GalleryWebGroup2018"/>
         <property name="java-output-path" value="/GalleryWebGroup2018/build/classes"/>
+        <property name="context-root" value="2018group18web_gallery"/>
     </wb-module>
 </project-modules>
